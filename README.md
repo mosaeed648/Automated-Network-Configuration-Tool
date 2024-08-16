@@ -23,7 +23,7 @@ The Automated Network Configuration Tool is a powerful Python-based utility desi
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/network-config-tool.git
+   https://github.com/mosaeed648/Automated-Network-Configuration-Tool.git
    cd network-config-tool
    ```
 
