@@ -24,7 +24,7 @@ The Automated Network Configuration Tool is a powerful Python-based utility desi
 1. Clone the repository:
    ```
    https://github.com/mosaeed648/Automated-Network-Configuration-Tool.git
-   cd network-config-tool
+   cd Automated-Network-Configuration-Tool
    ```
 
 2. Install the required Python packages:
