@@ -1,0 +1,10 @@
+- hostname: 192.168.1.1
+  username: admin
+  password: password123
+  device_type: router
+  location: datacenter1
+- hostname: 192.168.1.2
+  username: admin
+  password: password456
+  device_type: switch
+  location: datacenter2

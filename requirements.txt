@@ -1,0 +1,4 @@
+netmiko==3.4.0
+pyyaml==5.4.1
+jinja2==3.0.1
+scapy==2.4.5

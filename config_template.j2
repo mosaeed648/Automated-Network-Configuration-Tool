@@ -1,0 +1,15 @@
+configure terminal
+hostname {{ device_type }}_{{ location }}
+{% if device_type == 'router' %}
+interface GigabitEthernet0/0
+ip address dhcp
+no shutdown
+ip route 0.0.0.0 0.0.0.0 GigabitEthernet0/0
+{% elif device_type == 'switch' %}
+vlan 10
+name DATA
+vlan 20
+name VOICE
+{% endif %}
+end
+write memory
